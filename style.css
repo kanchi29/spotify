@@ -1,0 +1,409 @@
+*{
+        
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+    background-color:rgb(19, 18, 18);
+    padding: 0px 10px 0px 0px;
+}
+/* Sidebar */
+.material-icons {
+    font-size: 28px;
+    color: white;
+    
+}
+
+.icons, .icon2{
+    padding: 5px 0px 5px 0px;
+}
+
+.icon-active h4,.icons h4, .icon2 h4{
+    padding-left: 6px;
+    display: inline-block;
+}
+#home,#search, #library, #create, #liked, #episode{
+    position: relative;  
+    left: 3.7%;
+}
+#home{
+    top: 14%;
+}
+#search{
+    top: 19%;
+}
+#library{
+    top: 24.3%;
+}
+#create{
+    top: 33.5%;
+}
+#liked{
+    top: 39.5%;
+}
+#episode{
+    top: 45.1%;
+}
+.icon-active{
+    padding-top: 30px;
+}
+
+.iconlib{
+    padding-bottom: 25px;
+}
+.iconep{
+    padding-bottom: 4px;
+}
+.iconlib .material-icons{
+ font-size:25px ;
+}
+
+.sidebar {
+    padding: 20px 22px 5px 22px;
+    max-width:15.8% ;
+    min-width: 15.5%;
+    background-color: black;
+    position: fixed;
+}
+.all-icons{
+    display: inline;
+}
+.fancy,.install {
+    padding-top: 11px;
+}
+.playlist .play {
+    padding: 6.6px 0px 6.6px 0px;
+}
+.fancy{
+    padding-bottom: 6.6px;
+}
+
+.install .material-icons{
+ 
+ font-size: 20px;
+}
+.instally  {
+    font-size: 18px;
+    position: relative;
+    left: 4.1%;
+} 
+
+/* Main body */
+.goodeve{
+    border-color: coral;
+    
+}
+.main h2{
+font-size: 32px ;
+ position: absolute;
+ top: 12%;
+ margin-left: 17.5%;
+}
+.arrow {
+ position: absolute;
+ top: 2%;
+ margin-left: 17.5%;
+}
+.arrow .material-icons{
+ color: grey;
+}
+
+.main .walls, .repeat, .popmix{
+    background-color: rgb(40, 40, 40);;
+    position: absolute;
+    left: 17.5%;
+    width: 25.9%;
+    height: 11%;
+    display: inline;
+    top: 20.5%;
+    border-radius: 5px;
+}
+.walls h3, .repeat h3, .popmix h3{
+    display: inline;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+}
+.main .repeat{
+    left: 45%;
+}
+.main .popmix{
+    left: 72.4%;
+}
+.main .young, .driving, .home{
+    background-color: rgb(40, 40, 40);
+    position: absolute;
+    left: 17.5%;
+    width: 25.9%;
+    height: 11%;
+    display: inline;
+    top: 34%;
+    border-radius: 5px;
+}
+.main .driving{
+    left: 45%;
+}
+.main .home{
+    left: 72.4%;
+}
+.young h3, .driving h3{
+    display: inline;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+}
+.home h3{
+    display: inline;
+    position: absolute;
+    top: 24%;
+    left: 25%;
+}
+.favart{
+    font-size: 22px;
+    position: absolute;
+    top: 50%;
+    left: 17.5%
+}
+.louis, .harry, .ashe, .sos5, .postmalone, .taylor{
+    margin-top: 20px;
+    padding: 18px;
+    height: 250px;
+    background-color: rgb(20, 20, 20);
+    position: absolute;
+    left: 17.5%;
+    top: 55%;
+    border-radius: 5px;
+}
+.harry{
+    left: 31.5%;
+}
+.ashe{
+    left: 45%;
+}
+.sos5{
+left:59% ;
+}
+.postmalone{
+left: 73%;
+}
+.taylor{
+left: 87%;
+}
+.louis h3, .harry h3, .ashe h3,.sos5 h3, .postmalone h3, .taylor h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.upgradebtn{
+    padding: 4px 10px 4px 10px;
+    font-size: 20px;
+    position: absolute;
+    right: 11.4%;
+    top: 2.3%;
+    border-radius: 30px;
+    background-color: rgb(19, 18, 18);
+    color: white;
+    border-color:whitesmoke ;
+    width: 90px;
+}
+.kanchibtn{
+    position: absolute;
+    right: 2.2%;
+    top: 2.3%;
+    background-color: black;
+    width: 110px;
+    border-radius: 30px;
+    color: white;
+    padding: 4px 10px 4px 10px;
+}
+.kanchibtn img{
+    position: absolute;
+    left: 0.5px;
+    top: 0.5px;
+}
+#seeall h5{
+    position: absolute;
+    right: 12px;
+    top: 53%;
+}
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  ::-webkit-scrollbar-track {
+    background:rgb(19, 18, 18); 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(40, 40, 40); 
+  }
+
+  .mixes{
+    background-color: white;
+    width: 15%;
+    height: 20%;
+    position: absolute;
+    left: 17.9%;
+    top: 110%;
+}
+
+
+.favart2{
+    font-size: 22px;
+    position: absolute;
+    top: 105%;
+    left: 17.5%
+}
+.louis2, .harry2, .ashe2, .sos52, .postmalone2, .taylor2{
+    margin-top: 20px;
+    padding: 18px;
+    height: 250px;
+    background-color: rgb(20, 20, 20);
+    position: absolute;
+    left: 17.5%;
+    top: 110%;
+    border-radius: 5px;
+}
+.harry2{
+    left: 31.5%;
+}
+.ashe2{
+    left: 45%;
+}
+.sos52{
+left:59% ;
+}
+.postmalone2{
+left: 73%;
+}
+.taylor2{
+left: 87%;
+}
+.louis2 h3, .harry2 h3, .ashe2 h3,.sos52 h3, .postmalone2 h3, .taylor2 h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#seeall2 h5{
+    position: absolute;
+    right: 12px;
+    top: 107%;
+}
+
+
+   /* MUSIC BAR */
+
+  .currentplay img{
+      position: relative;
+      left: 17px;
+      top: 17px;
+  }
+  .currentplay{
+      position: fixed;
+      z-index: 1;
+      bottom: 0px;
+      width: 100%;
+      background-color: rgb(19, 18, 18);
+      height: 12%;
+  }
+  .currentplay h5{
+      
+      position: relative;
+      left: 85px;
+      bottom: 32px;
+      
+  }
+  .currentplay h6{
+    position: relative;
+    left: 85px;
+    bottom: 28px;
+  }
+  .currentplay .heart{
+      position: relative;
+      color: rgb(2, 141, 2);
+      left: 190px;
+      bottom: 78%;
+  }
+  .currentplay .shuffle{
+      color: rgb(196, 191, 191);
+      position: relative;
+      left: 650px;
+      bottom: 90%;
+  }
+  .currentplay .back{
+      position: relative;
+      color: rgb(196, 191, 191);
+      left: 672px;
+      bottom: 88%;
+      font-size: 21px;
+  }
+  .currentplay .circle{
+    position: relative;
+    color: white;
+    left: 694px;
+    bottom: 86%;
+    font-size: 32px;
+}
+.currentplay .front{
+    position: relative;
+    color: rgb(196, 191, 191);
+    left: 712px;
+    bottom: 88%;
+    font-size: 21px;
+}
+.currentplay .loop{
+    position: relative;
+    color: rgb(196, 191, 191);
+    left: 730px;
+    bottom: 88%;
+    font-size: 18px;
+}
+.currentplay #mic{
+    position: relative;
+    color: rgb(196, 191, 191);
+    left: 77%;
+    bottom: 72%;
+    font-size: 25px;
+}
+.currentplay #queue{
+    position: relative;
+    color: rgb(196, 191, 191);
+    left: 77.2%;
+    bottom: 72%;
+    font-size: 25px;
+}
+.currentplay #devices{
+    position: relative;
+    color: rgb(196, 191, 191);
+    left: 77.5%;
+    bottom: 72%;
+    font-size: 22px;
+}
+.currentplay #volume{
+    position: relative;
+    color: rgb(196, 191, 191);
+    left: 77.7%;
+    bottom: 70%;
+    font-size: 28px;
+}
+.progress{
+    position: relative;
+    left: 516px;
+    bottom: 80%;
+    width: 33.2%;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+}
+.volumebar{
+    position: relative;
+    left: 94.5%;
+    bottom: 102%;
+    width: 5.5%;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Spotify - Web Player
+        </title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+      
+      <script src="https://kit.fontawesome.com/b5aece10b4.js" crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,400&display=swap" rel="stylesheet"> 
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- LEFT-SIDEBAR -->
+       <div class="sidebar">
+         <div class="all-icons">
+               <span class="spot"><img src="spotifylogo.png" height="40px"></span>
+               <div class="icon-playlists">
+                 <div class="icon-active">
+                     <span class="material-icons" id="homebtn">home</span>
+                     <h4 style="color: white;" id="home">Home</h4>
+                 </div>  
+                 <div class="icons">
+                        <span class="material-icons" id="searchbtn">search</span>
+                        <h4 style="color: white;" id="search" >Search</h4>
+                 </div>
+                 <div class="icons">
+                     <div class="iconlib">
+                          <span class="material-icons" id="librarybtn">library_books</span>
+                          <h4 style="color: white;" id="library">Library</h4>
+                     </div>
+                 </div>
+                 <div class="icon2">
+                     <span class="material-icons" id="createbtn">add_box</span>
+                     <h4 style="color: white;" id="create">Create Playlist</h4>
+                 </div>
+                 <div class="icon2">
+                    <span class="material-icons" id="likedbtn">favorite</span>
+                    <h4 style="color: white;" id="liked">Liked Songs</h4>
+                </div>
+                <div class="icon2">
+                    <div class="iconep">
+                        <span class="material-icons" id="episodebtn">bookmark</span>
+                        <h4 style="color: white;" id="episode">Your Episodes</h4>
+                    </div>
+                </div>
+                <hr>
+                 <div class="playlist" style="color:white ;">
+                      <h4 class="fancy">Fancy Ballrom</h4>
+                      <h4 class="play">young, wild & free</h4>
+                      <h4 class="play">Rock Mix</h4>
+                      <h4 class="play">This is Louis Tomlinson</h4>
+                      <h4 class="play">Discover Weekly</h4>
+                      <h4 class="play">Pop Mix</h4>
+                      <h4 class="play">Kill My Mind Vibes</h4>
+                 </div>
+                 <div class="install">
+                     <span class="material-icons">download_for_offline</span>
+                     <span class="instally" style="color:white ;" >Install App</span>
+                 </div>
+                </div>
+         </div>
+        </div>
+
+       <!-- MAIN-BODY -->
+       <div class="main">
+           <div class="goodeve">
+              <span class="arrow" style="color: grey;">
+                <span class="material-icons">arrow_circle_left</span>
+                <span class="material-icons">arrow_circle_right</span>
+              </span>
+              <span class="sidebtn">
+                <button class="upgradebtn" type="button"><h6>Upgrade</h6></button>
+                <button class="kanchibtn" type="button" > <img src="pfp.jpg" height="25px" style="border-radius: 100%;"> kanchi </button>
+              </span>
+           </div>
+            <span>
+              <h2 style="color: white;">
+                   Good Evening
+              </h2>
+            </span>
+            <span class="walls">
+                
+                 <span><img src="walls.png" height="78.1px" style="border-radius: 5px;"></span>
+                 <span><h3 style="color: white; position: absolute;">Walls</h3></span>
+                
+            </span>
+            <span class="repeat">              
+                 <span><img src="repeat.jpg" height="78.1px" style="border-radius: 5px;"></span>
+                 <span><h3 style="color: white; position: absolute;">On Repeat</h3></span>
+            </span>
+            <span class="popmix">              
+                 <span><img src="popmix.jpg" height="78.1px" style="border-radius: 5px;"></span>
+                 <span><h3 style="color: white; position: absolute;">Pop Mix</h3></span>
+            </span>
+            <span class="young">              
+               <span><img src="young.jpg" height="78.1px"  style="border-radius: 5px;"></span>
+               <span><h3 style="color: white; position: absolute;">young, wild & free</h3></span>
+            </span>
+            <span class="driving">              
+               <span><img src="driving.png" height="78.1px" width="78.5px" style="border-radius: 5px;"></span>
+               <span><h3 style="color: white; position: absolute;">weirdly long driving playlist</h3></span>
+            </span>
+            <span class="home">              
+               <span><img src="home.jpg" height="78.1px" width="78.5px" style="border-radius: 5px;"></span>
+               <span><h3 style="color: white; position: absolute;">when you're lonely and forget who you are</h3></span>
+            </span> 
+           <div class="favoriteartist">
+               <span>
+                   <h3 style="color: white;" class="favart">
+                    Your favorite artists 
+                   </h3>
+               </span>
+               <span id="seeall">
+                   <h5 style="color: grey;">SEE ALL</h5>
+               </span>
+               <span class="louis">
+                   <span><img src="louis.jpg" height="150px" style="border-radius: 100px;"></span>
+                   <span><h3 style="color: white;">Louis Tomlinson</h3></span>
+                   <span><h5 style="color: grey;">Artist</h5></span>
+               </span>
+               <span class="harry">
+                 <span><img src="harry.jpg" height="150px" style="border-radius: 100px;"></span>
+                 <span><h3 style="color: white;">Harry Styles</h3></span>
+                 <span><h5 style="color: grey;">Artist</h5></span>
+               </span>
+               <span class="ashe">
+                 <span><img src="ashe.jpg" height="150px" style="border-radius: 100px;"></span>
+                 <span><h3 style="color: white;">Ashe</h3></span>
+                 <span><h5 style="color: grey;">Artist</h5></span>
+               </span>
+               <span class="sos5">
+                 <span><img src="5sos.jpg" height="150px" style="border-radius: 100px;"></span>
+                 <span><h3 style="color: white;">5 Seconds Of Sum...</h3></span>
+                 <span><h5 style="color: grey;">Artist</h5></span>
+               </span>
+               <span class="postmalone">
+                 <span><img src="postmalone.jpg" height="150px" style="border-radius: 100px;"></span>
+                 <span><h3 style="color: white;">Post Malone</h3></span>
+                 <span><h5 style="color: grey;">Artist</h5></span>
+               </span>
+               <span class="taylor">
+                 <span><img src="taylor.jpg" height="150px" style="border-radius: 100px;"></span>
+                 <span><h3 style="color: white;">Taylor Swift</h3></span>
+                 <span><h5 style="color: grey;">Artist</h5></span>
+               </span>              
+           </div>
+           <!-- feed -->
+           <div class="favoriteartist2">
+            <span>
+                <h3 style="color: white;" class="favart2">
+                 Your favorite artists 
+                </h3>
+            </span>
+            <span id="seeall2">
+                <h5 style="color: grey;">SEE ALL</h5>
+            </span>
+            <span class="louis2">
+                <span><img src="louis.jpg" height="150px" style="border-radius: 100px;"></span>
+                <span><h3 style="color: white;">Louis Tomlinson</h3></span>
+                <span><h5 style="color: grey;">Artist</h5></span>
+            </span>
+            <span class="harry2">
+              <span><img src="harry.jpg" height="150px" style="border-radius: 100px;"></span>
+              <span><h3 style="color: white;">Harry Styles</h3></span>
+              <span><h5 style="color: grey;">Artist</h5></span>
+            </span>
+            <span class="ashe2">
+              <span><img src="ashe.jpg" height="150px" style="border-radius: 100px;"></span>
+              <span><h3 style="color: white;">Ashe</h3></span>
+              <span><h5 style="color: grey;">Artist</h5></span>
+            </span>
+            <span class="sos52">
+              <span><img src="5sos.jpg" height="150px" style="border-radius: 100px;"></span>
+              <span><h3 style="color: white;">5 Seconds Of Sum...</h3></span>
+              <span><h5 style="color: grey;">Artist</h5></span>
+            </span>
+            <span class="postmalone2">
+              <span><img src="postmalone.jpg" height="150px" style="border-radius: 100px;"></span>
+              <span><h3 style="color: white;">Post Malone</h3></span>
+              <span><h5 style="color: grey;">Artist</h5></span>
+            </span>
+            <span class="taylor2">
+              <span><img src="taylor.jpg" height="150px" style="border-radius: 100px;"></span>
+              <span><h3 style="color: white;">Taylor Swift</h3></span>
+              <span><h5 style="color: grey;">Artist</h5></span>
+            </span>              
+         </div>
+           <!-- feed -->
+       </div>
+        <div class="currentplay">
+            <img src="littlefreak.png" height="55px">
+            <h5 style="color: white;">Little Freak</h5>
+            <h6 style="color: grey;">Harry Styles</h6>
+            <span class="heart">
+              <i class="fa-solid fa-heart"></i>
+            </span>
+            <span class="shuffle">
+              <i class="fa-solid fa-shuffle"></i>
+            </span>
+            <span class="back">
+              <i class="fa-solid fa-backward-step"></i>
+            </span>
+            <span class="circle">
+              <i class="fa-solid fa-circle-pause"></i>
+            </span>
+            <span class="front">
+              <i class="fa-solid fa-forward-step"></i>
+            </span>
+            <span class="loop">
+              <i class="fa-solid fa-repeat"></i>
+            </span>
+            <span class="material-icons" id="mic">
+              keyboard_voice
+            </span>
+            <span class="material-icons" id="queue">
+              menu
+            </span>
+            <span class="material-icons" id="devices">
+              speaker_group
+            </span>
+            <span class="material-icons" id="volume">
+              volume_down
+            </span>
+            <div class="progress"></div>
+            <div class="volumebar"></div>
+        </div>
+    </body>
+</html>
