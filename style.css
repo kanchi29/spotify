@@ -133,7 +133,7 @@ font-size: 32px ;
     height: 79px;
     cursor: pointer;
 }
-.main .walls .button:hover {
+.main  .walls .button:hover {
     opacity: 0.6;
 }
 
