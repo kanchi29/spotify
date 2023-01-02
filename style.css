@@ -124,6 +124,19 @@ font-size: 32px ;
     top: 20.5%;
     border-radius: 5px;
 }
+
+.main .walls .button{
+    background-color: rgb(40, 40, 40);
+    border: none;
+    border-radius: 5px;
+    width: 392px;
+    height: 79px;
+    cursor: pointer;
+}
+.main .walls .button:hover {
+    opacity: 0.6;
+}
+
 .walls h3, .repeat h3, .popmix h3{
     display: inline;
     position: absolute;
