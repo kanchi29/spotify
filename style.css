@@ -143,6 +143,11 @@ font-size: 32px ;
     top: 35%;
     left: 25%;
 }
+.button img{
+    position:relative;
+    left: -40%;
+
+}
 .main .repeat{
     left: 45%;
 }
