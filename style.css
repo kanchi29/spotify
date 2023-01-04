@@ -125,7 +125,7 @@ font-size: 32px ;
     border-radius: 5px;
 }
 
-.main .walls .button{
+.main .walls .button, .repeat .button, .popmix .button, .young .button, .driving .button, .home .button{
     background-color: rgb(40, 40, 40);
     border: none;
     border-radius: 5px;
@@ -133,7 +133,7 @@ font-size: 32px ;
     height: 79px;
     cursor: pointer;
 }
-.main  .walls .button:hover {
+.main .button:hover {
     opacity: 0.6;
 }
 
@@ -181,6 +181,7 @@ font-size: 32px ;
     position: absolute;
     top: 24%;
     left: 25%;
+    text-align: left;
 }
 .favart{
     font-size: 22px;
