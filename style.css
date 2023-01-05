@@ -269,7 +269,6 @@ left: 87%;
     top: 110%;
 }
 
-
 .recplay{
     font-size: 22px;
     position: absolute;
@@ -437,4 +436,10 @@ left: 87%;
     height: 4px;
     background-color: white;
     border-radius: 2px;
+}
+.footer{
+    position: absolute;
+    display: inline;
+    left: 50%;
+    top: 90%;
 }
